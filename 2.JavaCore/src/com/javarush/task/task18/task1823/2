@@ -1,0 +1,3 @@
+I am relatively new to Java, and often find that I need to sort a Map<Key, Value> on the values.
+Since the values are not unique, I find myself converting the keySet into an array, and sorting that array through array sort with a custom comparator that sorts on the value associated with the key.
+Is there an easier way?

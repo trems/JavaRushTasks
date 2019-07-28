@@ -1,0 +1,1 @@
+HashMap is a class in Java that implements Map interface and holds values based on an unique key.As we know HashMap is an unsorted and unordered Map. Hence, requirements come where we need to sort the HashMap either by its key or values.In this post, we will take a look into how to sort a HashMap by key as well as by value.

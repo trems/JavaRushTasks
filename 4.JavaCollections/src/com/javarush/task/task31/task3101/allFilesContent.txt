@@ -1,0 +1,23 @@
+vdfvdfvIC-191.7141.44
+1.3.21-release-175
+/build
+
+# skin-specific hardware values
+
+include ':${projectName}'
+
+include ':${projectName}'
+
+include ':${projectName}'
+
+include ':${projectName}'
+
+include ':${projectName}'
+
+include ':${projectName}'
+
+include ':${projectName}'
+
+
+1539341507
+
