@@ -4,10 +4,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ConvertableUtil {
+public class ConvertableUtil<T> {
 
-    public static Map convert(List list) {
+    public static Map convert(List<? extends Convertable> list) {
         Map result = new HashMap();
+        for (Convertable obj : list) {
+            result.put(obj.getKey(), obj);
+        }
         return result;
     }
 }
